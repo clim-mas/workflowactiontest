@@ -26,3 +26,4 @@ jobs:
     secrets:
       COLLECTION_ID: ${{ secrets.COLLECTION_ID }}
       ENVIRONMENT_ID: ${{ secrets.ENVIRONMENT_ID }}
+      POSTMAN_API_KEY: ${{ secrets.POSTMAN_API_KEY }}
