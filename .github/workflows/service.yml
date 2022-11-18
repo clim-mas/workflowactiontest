@@ -22,7 +22,7 @@ jobs:
       
   api-e2e-test:
     needs: unit-test
-    uses: clim-mas/reusableworkflow/blob/main/.github/workflows/postman.yml@main
+    uses: clim-mas/reusableworkflow/.github/workflows/postman.yml@main
     secrets:
       COLLECTION_ID: ${{ secrets.COLLECTION_ID }}
       ENVIRONMENT_ID: ${{ secrets.ENVIRONMENT_ID }}
