@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "testing cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run --headless"
+  },
+  "author": "Chris Lim",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^11.2.0",
+    "cypress-testrail-simple": "^3.1.1"
+  }
+}
