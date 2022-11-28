@@ -9,7 +9,7 @@ jobs:
     uses: clim-mas/reusableworkflow/.github/workflows/cypress.yml@main
     secrets:
       WORKING_DIRECTORY: web
-      TESTRAILS_RUN_NAME: Cypress Web Test
+      TESTRAILS_RUN_NAME: ${{secrets.TESTRAILS_RUN_NAME}}
       TESTRAIL_PROJECTID: 8
       TESTRAIL_HOST: ${{secrets.TESTRAIL_HOST}}
       TESTRAIL_DOMAIN: ${{secrets.TESTRAIL_DOMAIN}}
