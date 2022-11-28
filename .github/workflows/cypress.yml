@@ -8,7 +8,7 @@ jobs:
   ui-e2e-test:
     uses: clim-mas/reusableworkflow/.github/workflows/cypress.yml@main
     secrets:
-      WORKING_DIRECTORY: web
+      WORKING_DIRECTORY: ${{secrets.WORKING_DIRECTORY}}
       TESTRAILS_RUN_NAME: ${{secrets.TESTRAILS_RUN_NAME}}
       TESTRAIL_PROJECTID: 8
       TESTRAIL_HOST: ${{secrets.TESTRAIL_HOST}}
